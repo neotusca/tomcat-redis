@@ -1,5 +1,5 @@
- <Manager className="org.redisson.tomcat.RedissonSessionManager"
-        configPath="${catalina.base}/conf/redisson.conf" readMode="REDIS"/>
+ <!--Manager className="org.redisson.tomcat.RedissonSessionManager"
+        configPath="${catalina.base}/conf/redisson.conf" readMode="REDIS"/-->
  <Valve className="tomcat.request.session.redis.SessionHandlerValve" />
  <Manager className="tomcat.request.session.redis.SessionManager" />
 </Context>
